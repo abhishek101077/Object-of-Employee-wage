@@ -21,7 +21,7 @@ namespace ObjectofEmployeewage
             Console.WriteLine($"After calculating , Line distance value is : {d1}\n");
             
         }
-        public static void EqualsMethod(double line1Distance, double line2Distance)     //Equals()
+        public void EqualsMethod(double line1Distance, double line2Distance)     //Equals()
         {
             bool EqualsStatus = line1Distance.Equals(line2Distance);
             if (EqualsStatus)
@@ -33,7 +33,7 @@ namespace ObjectofEmployeewage
                 Console.WriteLine("As per the result ,Length value of Line 1 and Line 2 are NOT equal (using Equals())");
             }
         }
-        public static void CompareMethod(double line1Distance, double line2Distance)    //CompareTo()
+        public void CompareMethod(double line1Distance, double line2Distance)    //CompareTo()
         {
             int CompareToStatus = line1Distance.CompareTo(line2Distance);
             if (CompareToStatus == 0)
